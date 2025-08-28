@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Eva1_6_Operaciones"/>
+        <attribute name="authors" value="fer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-28 05:19:08 p. m."/>
+        <attribute name="created" value="ZmVyO0RFU0tUT1AtSko1MzNUQTsyMDI1LTA4LTI4OzA1OjA1OjEzIHAuIG0uOzI4MjU="/>
+        <attribute name="edited" value="ZmVyO0RFU0tUT1AtSko1MzNUQTsyMDI1LTA4LTI4OzA1OjE5OjA4IHAuIG0uOzE7Mjk0Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="radio" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="py" type="Real" array="False" size=""/>
+            <assign variable="py" expression="3.141592"/>
+            <assign variable="radio" expression="5"/>
+            <assign variable="area" expression="py * radio * radio"/>
+            <output expression="&quot;El area de un circulo con radio 5 es: &quot;" newline="False"/>
+            <output expression="area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
