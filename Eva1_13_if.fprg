@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Eva1_13_if"/>
+        <attribute name="authors" value="fer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-05 05:28:22 PM"/>
+        <attribute name="created" value="ZmVyO0RFU0tUT1AtSko1MzNUQTsyMDI1LTA5LTA1OzA1OjIwOjU5IFBNOzI2NDA="/>
+        <attribute name="edited" value="ZmVyO0RFU0tUT1AtSko1MzNUQTsyMDI1LTA5LTA1OzA1OjI4OjIyIFBNOzE7Mjc0Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="calificacion" type="Real" array="False" size=""/>
+            <output expression="&quot;introduce la calificacion&quot;" newline="True"/>
+            <input variable="calificacion"/>
+            <if expression="calificacion &gt;= 70">
+                <then>
+                    <output expression="&quot;Te ganaste un femboy de 1.70 de peru&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;te convertimos en furry en ecuador para que te portes bien&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
