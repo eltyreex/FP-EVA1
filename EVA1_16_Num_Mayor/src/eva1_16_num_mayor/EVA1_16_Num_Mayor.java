@@ -24,10 +24,21 @@ public class EVA1_16_Num_Mayor {
         System.out.println("Tu numero 2 es: ");
         num2 = input.nextDouble();
         if(num1 > num2) {
-            System.out.println("Tu variable numero 1 es mayor");}
-        else{
-        System.out.println("Tu varibale numero 2 es mayor");
+            System.out.println("Tu variable numero 1 es mayor");
+            System.out.println(num1);
+        }
+        else{//ahora lo que nos  queda es el num2>num1
+            //if anidado
+        if(num2>num1){
+            System.out.println("Tu num 2 es mayor");
+            System.out.println(num2);
+         } else{
+            System.out.println("Tus numeros son iguales");
+        }
+            
+            
     }
+        
         
     }
     
